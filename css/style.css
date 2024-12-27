@@ -69,28 +69,145 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:0 250px;
+    padding: 0 250px;
 }
-.failure-profile img{
-    max-width:450px;
+
+.failure-profile img {
+    max-width: 450px;
 }
 
 .failure-content-title {
-    max-width:288px;
+    max-width: 288px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
-.failure-content-description{
-    max-width:416px;
-    color:  #444343;
+
+.failure-content-description {
+    max-width: 416px;
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+ul>li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.color-check {
+    color: green;
+}
+
+.my-plans-container {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plan-title {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-description {
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer-top-banner {
+    background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
+    /* margin: 0 200px; */
+    background-position: center;
+}
+
+.footer-top-banner-content {
+    /* text-align:center; */
+    padding: 60px 60px 60px 260px;
+}
+
+.footer-top-banner-title {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    max-width: 460px;
+
+}
+
+.footer-top-banner-btn {
+    border-radius: 5px;
+    background: #FFF;
+    padding: 20px 30px;
+    border: 0;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+footer {
+    margin-top: 100px;
+    background: #151414;
+    padding: 130px 230px;
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
     margin-bottom:10px;
 }
-ul> li{
-    list-style:none;
-    margin-top:10px;
+
+.footer-description {
+    max-width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom:10px;
+}
+.contact-info{
+    color: #FFF;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom:10px;
+}
+input[type="email"]{
+    display:block;
+    width:100%;
+    border:1px solid #ddd;
+    padding:20px;
+    color: #F3F3F3;
+font-size: 18px;
+font-weight: 400;
+background:  #151414;
+border-radius:5px;
+margin-bottom:10px;
+}
+.subscribe-btn{
+    padding:20px 36px;
+    border-radius: 8px;
+background: #FFF;
+color: #F15B22;
+font-size: 20px;
+font-weight: 600;
+cursor:pointer;
 }
